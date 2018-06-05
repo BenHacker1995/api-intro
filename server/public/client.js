@@ -1,6 +1,8 @@
 const app = angular.module( 'apiApp', [] );
 
 app.controller( 'apiController', [ '$http', function( $http ) {
-    vm = this;
+    let vm = this;
+    vm.welcome = "Welcome to my awesome SWAPI app!!!";
+    
     
 }]);
